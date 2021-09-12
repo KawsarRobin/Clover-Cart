@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FakeStore</title>
+    <title>CloverCart</title>
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Latest compiled and minified CSS -->
     <link
@@ -30,34 +30,41 @@
   </head>
 
   <body>
+    <!-- header starts -->
     <header>
-      <h1>Shopping cart</h1>
+      <div class="text-center my-3">
+        <h1>
+          Welcome to <span class="text-success">Clover</span
+          ><span class="text-secondary">Cart</span>
+        </h1>
+      </div>
     </header>
+    <!-- header end  -->
+
     <main class="main">
+      <!-- Search Box  -->
       <div class="w-50 mx-auto">
         <div class="input-group mb-4">
           <input
             type="text"
             class="form-control"
-            placeholder="Type your product name"
+            placeholder="Search in CloverCart"
             aria-label="Recipient's username"
             aria-describedby="button-addon2"
           />
-          <button
-            class="btn btn-outline-success"
-            type="button"
-            id="button-addon2"
-          >
-            Button
+          <button class="btn btn-success fs-4" type="button" id="button-addon2">
+            <i class="fas fa-search"></i>
           </button>
         </div>
       </div>
+      <!-- shopping cart -->
       <div class="row">
         <div class="col-md-9 col-lg-9 col-sm-7">
           <div class="row container">
             <div id="all-products" class="col col-md-3"></div>
           </div>
         </div>
+        <!-- My Cart  -->
         <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
           <div class="cart" id="my-cart">
             <table class="table">
@@ -103,7 +110,9 @@
               </tbody>
             </table>
             <div class="parces text-center">
-              <button class="btn btn-primary text-center">Buy Now</button>
+              <button class="btn btn-outline-primary text-center">
+                Buy Now
+              </button>
             </div>
           </div>
         </div>
