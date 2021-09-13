@@ -15,7 +15,7 @@ const showProducts = (products) => {
     div.classList.add('product');
     div.innerHTML = `
     <div class="single-product border rounded">
-        <div>
+        <div class="bg-light p-3">
         <img class="product-image " src=${product.image}></img>
         </div>
       <h4>${product.title}</h4>
