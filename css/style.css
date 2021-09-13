@@ -14,19 +14,18 @@ body {
   justify-content: center;
 }
 .single-product {
-  background-color: #e4ffe4;
   height: 580px;
   width: 280px;
   padding: 10px;
+  background-color: #ebfafd;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px rgba(200, 200, 200, 0.856);
   transform: scale(1.04);
   transition: transform 0.2s ease-out;
+  background-color: #f8f9fa !important;
 }
-.img-div {
-  background-color: #e4ffe4;
-}
+
 .product-image {
   width: 150px;
   height: 150px;
